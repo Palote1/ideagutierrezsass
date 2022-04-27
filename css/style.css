@@ -1,0 +1,77 @@
+nav {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  nav ul {
+    list-style: none;
+    display: flex; }
+
+#rick {
+  background-color: rgba(96, 255, 4, 0.904);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(145, 255, 0, 0.5), 25px, rgba(145, 255, 0, 0.5) 40px); }
+  #rick #rick::after {
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px; }
+
+#estilo {
+  background-color: rgba(96, 255, 4, 0.904);
+  position: relative;
+  margin-top: -20px;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(96, 255, 4, 0.904); }
+  #estilo #estilo img {
+    position: relative;
+    margin-top: -30px; }
+
+#separador-rickandmorty {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2; }
+
+#separador-rickandmorty .content {
+  width: 150%;
+  height: 150px;
+  margin-left: -25%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%; }
+
+.card-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s; }
+  .card-border:hover {
+    transform: scale(1.05); }
+
+#episodios {
+  background-color: rgba(255, 255, 255, 0.904);
+  background: url(./img/portal.png), linear-gradient(0deg, rgba(255, 255, 255, 0.904) 0%, rgba(10, 7, 37, 0.904) 57%);
+  background-repeat: repeat-x;
+  background-size: 75%;
+  margin-top: -20px; }
+
+#footer {
+  background: url(./img/ribbon.jpg);
+  background-color: rgba(96, 255, 4, 0.904);
+  background-size: 50px 50px; }
+
+button {
+  color: green;
+  border: 2px solid green; }
+
+@media (min-width: 768px) {
+  .morty-input {
+    width: 50%; } }
+
+body {
+  padding-top: 4.5rem; }
